@@ -2,6 +2,8 @@ import qs from 'querystringify'
 import { createSelector } from 'create-selector'
 import { HAS_WINDOW, initScrollPosition, saveScrollPosition } from '../utils'
 
+const URL = window.URL
+
 export const isString = obj =>
   Object.prototype.toString.call(obj) === '[object String]'
 export const isDefined = thing => typeof thing !== 'undefined'

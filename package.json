@@ -18,8 +18,7 @@
     "redux-persist-middleware": "1.0.1",
     "standard": "10.0.3",
     "tap-spec": "4.1.1",
-    "tape": "4.6.0",
-    "whatwg-url": "6.3.0"
+    "tape": "4.6.0"
   },
   "files": [
     "dist"
